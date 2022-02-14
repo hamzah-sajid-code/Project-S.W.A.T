@@ -1,0 +1,120 @@
+body{
+    background-color: #808080;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    animation: rainbow 10s infinite;
+    cursor: pointer;
+}
+
+.subtitle{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Didot;
+    color:white;
+}
+
+#gameFeatures{
+    font-size: 20px;
+    text-align: left;
+    margin-top: -20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffffff;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.textfeatures{
+    margin-top: 50px;
+    font-size:25px;
+    margin-left: 100px;
+    color:lime;
+}
+
+.features{
+    margin-top: 75px;
+    font-size:25px;
+    margin-left: 100px;
+    color:cyan;
+}
+
+#gameAbout{
+    margin-top: -20px;
+    font-size:20px;
+    margin-left: 175px;
+    color:white;
+}
+
+.textdevs{
+    margin-top: 100px;
+    font-size:25px;
+    margin-left: 75px;
+    color:red;
+}
+
+.devlist{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/* style copyright class */
+.copyright{
+    margin-top: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* put element in the bottom */
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    font-size:15px;
+    height: 25px;
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: orange;
+    }
+
+    20% {
+        color: yellow;
+    }
+
+    30% {
+        color: green;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    50% {
+        color: black;
+    }
+
+    60% {
+        color: violet;
+    }
+
+    70% {
+        color: red;
+    }
+
+    80% {
+        color: orange;
+    }
+
+    90% {
+        color: yellow;
+    }
+
+    100% {
+        color: green;}}
